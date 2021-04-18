@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F9B078CEB7709BAF4F8B4CF /* Pods_RainyDay__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EB28714EB275FA5F7B2428 /* Pods_RainyDay__macOS_.framework */; };
+		CBAF99BFE089DFEDD302D4AB /* Pods_RainyDay__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208DC6583F22FAEE0D724D20 /* Pods_RainyDay__iOS_.framework */; };
 		FED51C6A262C5AB800FFCB4D /* RainyDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED51C57262C5AB200FFCB4D /* RainyDayApp.swift */; };
 		FED51C6B262C5AB800FFCB4D /* RainyDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED51C57262C5AB200FFCB4D /* RainyDayApp.swift */; };
 		FED51C6C262C5AB800FFCB4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED51C58262C5AB200FFCB4D /* ContentView.swift */; };
 		FED51C6D262C5AB800FFCB4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED51C58262C5AB200FFCB4D /* ContentView.swift */; };
 		FED51C6E262C5AB800FFCB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED51C59262C5AB800FFCB4D /* Assets.xcassets */; };
 		FED51C6F262C5AB800FFCB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED51C59262C5AB800FFCB4D /* Assets.xcassets */; };
+		FED51C7B262C5F1100FFCB4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FED51C7A262C5F1100FFCB4D /* GoogleService-Info.plist */; };
+		FED51C7C262C5F1100FFCB4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FED51C7A262C5F1100FFCB4D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10EB28714EB275FA5F7B2428 /* Pods_RainyDay__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainyDay__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15431F7DD03A95A401460837 /* Pods-RainyDay (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyDay (iOS).debug.xcconfig"; path = "Target Support Files/Pods-RainyDay (iOS)/Pods-RainyDay (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		208DC6583F22FAEE0D724D20 /* Pods_RainyDay__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainyDay__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9B3179F7A0F518D6E9481A /* Pods-RainyDay (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyDay (macOS).release.xcconfig"; path = "Target Support Files/Pods-RainyDay (macOS)/Pods-RainyDay (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		DF7C365A0CA0AC6CDA19C780 /* Pods-RainyDay (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyDay (macOS).debug.xcconfig"; path = "Target Support Files/Pods-RainyDay (macOS)/Pods-RainyDay (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F94D45799F1E6D0FF74AACF6 /* Pods-RainyDay (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyDay (iOS).release.xcconfig"; path = "Target Support Files/Pods-RainyDay (iOS)/Pods-RainyDay (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		FED51C57262C5AB200FFCB4D /* RainyDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainyDayApp.swift; sourceTree = "<group>"; };
 		FED51C58262C5AB200FFCB4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FED51C59262C5AB800FFCB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +34,7 @@
 		FED51C66262C5AB800FFCB4D /* RainyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED51C68262C5AB800FFCB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FED51C69262C5AB800FFCB4D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FED51C7A262C5F1100FFCB4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAF99BFE089DFEDD302D4AB /* Pods_RainyDay__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,12 +50,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9B078CEB7709BAF4F8B4CF /* Pods_RainyDay__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46A2E844F887CC9C181B4A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				208DC6583F22FAEE0D724D20 /* Pods_RainyDay__iOS_.framework */,
+				10EB28714EB275FA5F7B2428 /* Pods_RainyDay__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B14299EF0D250D9D4D46B94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15431F7DD03A95A401460837 /* Pods-RainyDay (iOS).debug.xcconfig */,
+				F94D45799F1E6D0FF74AACF6 /* Pods-RainyDay (iOS).release.xcconfig */,
+				DF7C365A0CA0AC6CDA19C780 /* Pods-RainyDay (macOS).debug.xcconfig */,
+				8B9B3179F7A0F518D6E9481A /* Pods-RainyDay (macOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FED51C51262C5AB200FFCB4D = {
 			isa = PBXGroup;
 			children = (
@@ -51,12 +85,15 @@
 				FED51C60262C5AB800FFCB4D /* iOS */,
 				FED51C67262C5AB800FFCB4D /* macOS */,
 				FED51C5F262C5AB800FFCB4D /* Products */,
+				6B14299EF0D250D9D4D46B94 /* Pods */,
+				46A2E844F887CC9C181B4A79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		FED51C56262C5AB200FFCB4D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FED51C7A262C5F1100FFCB4D /* GoogleService-Info.plist */,
 				FED51C57262C5AB200FFCB4D /* RainyDayApp.swift */,
 				FED51C58262C5AB200FFCB4D /* ContentView.swift */,
 				FED51C59262C5AB800FFCB4D /* Assets.xcassets */,
@@ -97,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FED51C72262C5AB800FFCB4D /* Build configuration list for PBXNativeTarget "RainyDay (iOS)" */;
 			buildPhases = (
+				6C476EFB2CA0E81A03818793 /* [CP] Check Pods Manifest.lock */,
 				FED51C5A262C5AB800FFCB4D /* Sources */,
 				FED51C5B262C5AB800FFCB4D /* Frameworks */,
 				FED51C5C262C5AB800FFCB4D /* Resources */,
+				7A4D5555C5C05918D214A54D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -114,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FED51C75262C5AB800FFCB4D /* Build configuration list for PBXNativeTarget "RainyDay (macOS)" */;
 			buildPhases = (
+				A540084FE44E8A44D8F1A101 /* [CP] Check Pods Manifest.lock */,
 				FED51C62262C5AB800FFCB4D /* Sources */,
 				FED51C63262C5AB800FFCB4D /* Frameworks */,
 				FED51C64262C5AB800FFCB4D /* Resources */,
@@ -169,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED51C6E262C5AB800FFCB4D /* Assets.xcassets in Resources */,
+				FED51C7B262C5F1100FFCB4D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,10 +218,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED51C6F262C5AB800FFCB4D /* Assets.xcassets in Resources */,
+				FED51C7C262C5F1100FFCB4D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C476EFB2CA0E81A03818793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainyDay (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4D5555C5C05918D214A54D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RainyDay (iOS)/Pods-RainyDay (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RainyDay (iOS)/Pods-RainyDay (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RainyDay (iOS)/Pods-RainyDay (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A540084FE44E8A44D8F1A101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainyDay (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FED51C5A262C5AB800FFCB4D /* Sources */ = {
@@ -317,6 +423,7 @@
 		};
 		FED51C73262C5AB800FFCB4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15431F7DD03A95A401460837 /* Pods-RainyDay (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +446,7 @@
 		};
 		FED51C74262C5AB800FFCB4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94D45799F1E6D0FF74AACF6 /* Pods-RainyDay (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +470,7 @@
 		};
 		FED51C76262C5AB800FFCB4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7C365A0CA0AC6CDA19C780 /* Pods-RainyDay (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,6 +495,7 @@
 		};
 		FED51C77262C5AB800FFCB4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9B3179F7A0F518D6E9481A /* Pods-RainyDay (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
